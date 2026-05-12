@@ -1,0 +1,42 @@
+# RAG Based Question Answering System
+
+A simple Retrieval-Augmented Generation (RAG) system built with:
+
+- Python
+- Ollama
+- BGE-M3 Embeddings
+- Qwen3 LLM
+- Scikit-learn Cosine Similarity
+
+This project retrieves the most relevant text chunks using vector similarity and generates answers using a local LLM.
+
+---
+
+# Features
+
+- Local embedding generation using `bge-m3`
+- Semantic search with cosine similarity
+- Retrieval of top relevant chunks
+- Answer generation using `qwen3:8b`
+- Fast vector search using NumPy + scikit-learn
+- Offline/local AI workflow with Ollama
+
+---
+
+# Project Structure
+
+```bash
+RAGPROJECT/
+│
+├── create_chunks.py
+├── read_chunks.py
+├── similarity_from_joblib.py
+├── embedding.joblib
+├── datafrme.csv
+│
+├── audios/
+├── videos/
+├── json/
+│
+├── .gitignore
+└── README.md

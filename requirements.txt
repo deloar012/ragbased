@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+joblib
+ollama
+ollama pull bge-m3
+ollama pull qwen3:8b
