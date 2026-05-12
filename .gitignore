@@ -4,3 +4,4 @@ json/audios/
 videos/
 json/
 .ipynb_checkpoints/
+.joblib
