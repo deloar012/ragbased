@@ -1,0 +1,19 @@
+User Query
+↓
+Convert query to embedding
+↓
+Compare against 7000+ chunk embeddings
+↓
+Find semantically similar chunks
+↓
+Return best matches
+
+Retrieved Chunks
++
+User Question
+↓
+Create Prompt
+↓
+Send to LLM
+↓
+Generate final answer
